@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-.header__box {
+.header {
   padding: 0 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,19 +25,19 @@
 .moyoLogo {
   margin: 10px 0; }
 
-.navigation__box {
+.navigation__list {
   margin: 0;
   padding: 0; }
 
-.navigation__list {
+.navigation__item {
   display: inline-block;
   position: relative;
   margin-right: 20px; }
 
-.navigation__list:last-child {
+.navigation__item:last-child {
   margin-right: 0; }
 
-.navigation__links {
+.navigation__link {
   text-decoration: none;
   position: relative;
   color: black;
@@ -50,7 +50,7 @@
   padding-bottom: 22.5px; }
 
 .is-active,
-.navigation__links:hover {
+.navigation__link:hover {
   color: #00acdc; }
 
 .is-active::after {

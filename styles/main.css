@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-.header__box {
+.header {
   padding: 0 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,19 +25,19 @@
 .moyoLogo {
   margin: 10px 0; }
 
-.navigation__box {
+.navigation__list {
   margin: 0;
   padding: 0; }
 
-.navigation__list {
+.navigation__item {
   display: inline-block;
   position: relative;
   margin-right: 20px; }
 
-.navigation__list:last-child {
+.navigation__item:last-child {
   margin-right: 0; }
 
-.navigation__links {
+.navigation__link {
   text-decoration: none;
   position: relative;
   color: black;
@@ -50,7 +50,7 @@
   padding-bottom: 22.5px; }
 
 .is-active,
-.navigation__links:hover {
+.navigation__link:hover {
   color: #00acdc; }
 
 .is-active::after {
@@ -90,15 +90,15 @@
 body {
   margin: 0; }
 
-.product_card__button-item,
-.product_card__rate,
-.product_card__button,
-.product_card__price {
+.product__button-item,
+.product__rate,
+.product__button,
+.product__price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
-.card_section {
+.card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,56 +108,58 @@ body {
   height: 856px;
   margin: 50px auto; }
 
-.product_card {
+.product {
   display: inline-block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  margin: 0 48px 53px 0;
   padding: 0;
   border: 1px solid #f3f3f3;
-  background-color: #fff;
+  background-color: #fff; }
+
+.product--retreat {
+  margin: 0 48px 53px 0;
   height: 400px;
   width: 200px; }
 
-.product_card__img {
+.product__img {
   width: 160px;
   height: 134px;
   margin: 30px 19px; }
 
-.product_card__text {
+.product__text {
   line-height: 15px;
   font-weight: 500;
   margin-top: 11px;
   margin-left: 14px;
   font-size: 12px; }
 
-.product_card__code {
+.product__code {
   font-size: 11px;
   line-height: 13px;
   margin: 5px 14px;
   font-weight: 400; }
 
-.product_card__price {
+.product__price {
   margin-top: 0;
   margin-left: -1px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.product_card__info {
+.product__info {
   font-size: 11px;
   line-height: 13px;
   margin: 25px 15px; }
 
-.product_card__price-item {
+.product__price-item {
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
   margin-top: 21px;
   margin-right: 14px; }
 
-.product_card__button {
+.product__button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -166,14 +168,14 @@ body {
           align-items: center;
   margin-top: -4px; }
 
-.product_card__rate {
+.product__rate {
   margin-left: -1px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 15px; }
 
-.product_card__button-item {
+.product__button-item {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -194,18 +196,18 @@ body {
   height: 40px;
   color: #fff; }
 
-.product_card__button-item:hover {
+.product__button-item:hover {
   background: #fff;
   color: #00acdc; }
 
-.product_card__respond {
+.product__respond {
   font-size: 11px;
   line-height: 13px;
   margin-top: 1px;
   margin-right: 14px; }
 
-.card_section > :nth-child(4),
-.card_section > :nth-child(8) {
+.card > :nth-child(4),
+.card > :nth-child(8) {
   margin-right: 0; }
 
 /*# sourceMappingURL=main.css.map */
