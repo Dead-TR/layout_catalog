@@ -11,27 +11,6 @@
   height: 400px;
   width: 200px; }
 
-.product--retreat1 {
-  grid-area: unit1; }
-
-.product--retreat2 {
-  grid-area: unit2; }
-
-.product--retreat3 {
-  grid-area: unit3; }
-
-.product--retreat4 {
-  grid-area: unit4; }
-
-.product--retreat5 {
-  grid-area: unit5; }
-
-.product--retreat6 {
-  grid-area: unit6; }
-
-.product--retreat7 {
-  grid-area: unit7; }
-
 .product__img {
   width: 160px;
   height: 134px;
